@@ -1,4 +1,4 @@
-# Scipy 2019 JupyterLab tutorial
+# Python Workshop
 
 Sources (derived from):
 - https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial 
