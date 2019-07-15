@@ -81,7 +81,7 @@ Sources (derived from):
 ## Useful links:
 
 ### Installation:
-- [anaconda](https://www.anaconda.com/distribution/)
+- [anaconda (python + libraries)](https://www.anaconda.com/distribution/)
 - [Conda](https://conda.io/projects/conda/en/latest/index.html)
 - [git](https://git-scm.com/)
 - [python (only)](https://www.python.org/downloads/)
