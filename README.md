@@ -76,3 +76,18 @@ Sources (derived from):
     ```
     conda env remove --name tutorial --yes
     ```
+
+
+## Useful links:
+
+- https://conda.io/projects/conda/en/latest/index.html
+
+- https://github.com/jupyterlab/jupyterlab-latex
+- https://github.com/jupyterlab/jupyterlab-git
+- https://github.com/jupyter-widgets/ipywidgets
+- https://github.com/markusschanta/awesome-jupyter
+
+- https://github.com/jrjohansson/scientific-python-lectures
+
+- https://pangeo.io/
+
