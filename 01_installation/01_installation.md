@@ -1,5 +1,5 @@
 
-# **01 - Installing anaconda **
+# 01 - Installing anaconda
 -----
 
 - **python distribution**
