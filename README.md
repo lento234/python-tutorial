@@ -80,14 +80,16 @@ Sources (derived from):
 
 ## Useful links:
 
-- https://conda.io/projects/conda/en/latest/index.html
+- Conda: https://conda.io/projects/conda/en/latest/index.html
 
-- https://github.com/jupyterlab/jupyterlab-latex
-- https://github.com/jupyterlab/jupyterlab-git
-- https://github.com/jupyter-widgets/ipywidgets
-- https://github.com/markusschanta/awesome-jupyter
+- [Latex + Jupyter](https://github.com/jupyterlab/jupyterlab-latex)
+- [Git + Jupyter](https://github.com/jupyterlab/jupyterlab-git)
+- [ipywidgets + Jupyter](https://github.com/jupyter-widgets/ipywidgets)
+- [Awesome jupyter notebooks](https://github.com/markusschanta/awesome-jupyter)
 
-- https://github.com/jrjohansson/scientific-python-lectures
+- [Lecturei series on scientific python by jrjohansson](https://github.com/jrjohansson/scientific-python-lectures)
 
-- https://pangeo.io/
+
+- [Pangeo](https://pangeo.io/)
+- [Numpy for matlab users](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html)
 
