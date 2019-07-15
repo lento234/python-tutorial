@@ -80,16 +80,31 @@ Sources (derived from):
 
 ## Useful links:
 
-- Conda: https://conda.io/projects/conda/en/latest/index.html
+### Installation:
+- [python (only)](https://www.python.org/downloads/)
+- [anaconda](https://www.anaconda.com/distribution/)
+- [Conda](https://conda.io/projects/conda/en/latest/index.html)
 
-- [Latex + Jupyter](https://github.com/jupyterlab/jupyterlab-latex)
-- [Git + Jupyter](https://github.com/jupyterlab/jupyterlab-git)
-- [ipywidgets + Jupyter](https://github.com/jupyter-widgets/ipywidgets)
+### Jupyter related:
+- [Latex + jupyter](https://github.com/jupyterlab/jupyterlab-latex)
+- [Git + jupyter](https://github.com/jupyterlab/jupyterlab-git)
+- [ipywidgets + jupyter](https://github.com/jupyter-widgets/ipywidgets)
 - [Awesome jupyter notebooks](https://github.com/markusschanta/awesome-jupyter)
+- [Dask + jupyter](https://github.com/dask/dask-labextension)
 
-- [Lecturei series on scientific python by jrjohansson](https://github.com/jrjohansson/scientific-python-lectures)
-
-
-- [Pangeo](https://pangeo.io/)
+### Reference guides
 - [Numpy for matlab users](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html)
+- [Lecture series on scientific python by jrjohansson](https://github.com/jrjohansson/scientific-python-lectures)
+- [Python datascience handbook online series](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
+- [Scipy 2019 conference videos](https://www.youtube.com/user/EnthoughtMedia/videos)
+
+### Libraries + tutorials
+- [Pangeo](https://pangeo.io/)
+- [Dask](https://docs.dask.org/en/latest/)
+- [Docker](https://hub.docker.com/)
+- [Dask-jobqueue at PBSCluster](https://andersonbanihirwe.dev/talks/dask-jupyter-scipy-2019.html)
+
+### Reproducability
+- [Data Life-Cycle Management](https://www.dlcm.ch/)
+- [OpenBIS docker container](https://hub.docker.com/r/openbis/debian-openbis)
 
