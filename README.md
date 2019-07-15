@@ -81,9 +81,10 @@ Sources (derived from):
 ## Useful links:
 
 ### Installation:
-- [python (only)](https://www.python.org/downloads/)
 - [anaconda](https://www.anaconda.com/distribution/)
 - [Conda](https://conda.io/projects/conda/en/latest/index.html)
+- [git](https://git-scm.com/)
+- [python (only)](https://www.python.org/downloads/)
 
 ### Jupyter related:
 - [Latex + jupyter](https://github.com/jupyterlab/jupyterlab-latex)
