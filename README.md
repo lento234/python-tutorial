@@ -2,7 +2,7 @@
 **Online Notebooks:**
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/lento234/python-tutorial/master?urlpath=lab)
-[![Azure](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/lento234/python-tutorial)
+[![Azure](https://notebooks.azure.com/launch.svg)](https://notebooks.azure.com/import/gh/lento234/python-tutorial)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lento234/python-tutorial/blob/master/04_numerical_python/04_numpy.ipynb)
 
 **Continuous integration:**
