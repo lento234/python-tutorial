@@ -1,11 +1,12 @@
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/lento234/python-tutorial/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/lento234/python-tutorial/master?urlpath=lab)
 
 # Python Workshop
 
-Sources (derived from):
+Sources (derived and modified from):
 - [Scipy 2019 jupyterlab tutorial](https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial)
 - [Scipy Lecture notes](https://scipy-lectures.org/)
+- [Dask examples tutorial](https://github.com/dask/dask-examples)
 
 
 ### The goals of 1st workshop are: 
@@ -55,7 +56,7 @@ Sources (derived from):
 
     *Installing from `yaml`:*
     ```
-    conda env create -f environment.yml
+    conda env create -f binder/environment.yml
     ```
 
     *Activate the conda environment:*

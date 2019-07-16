@@ -1,0 +1,40 @@
+name: tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - cookiecutter
+  - notebook<5.7.5
+  - pandas=0.24
+  - nodejs=8.9
+  - jupyterlab>=1.0
+  - bqplot
+  - ipyleaflet
+  - ipympl
+  - ipyvolume
+  - pythreejs
+  - bokeh=1.1.0
+  - dask=2.0.0
+  - dask-image=0.2.0
+  - dask-ml=1.0.0
+  - tornado=5
+  - numba
+  - numpy
+  - pyarrow==0.12.0
+  - python-graphviz
+  - seaborn
+  - scikit-learn=0.20
+  - matplotlib
+  - nbserverproxy
+  - nomkl
+  - h5py
+  - xarray
+  - bottleneck
+  - requests
+  - py-xgboost
+  - sympy
+  - pip:
+    - dask_xgboost
+    - mimesis
+    - dask-labextension>=1.0
