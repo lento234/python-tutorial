@@ -7,6 +7,7 @@ Sources (derived and modified from):
 - [Scipy 2019 jupyterlab tutorial](https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial)
 - [Scipy Lecture notes](https://scipy-lectures.org/)
 - [Dask examples tutorial](https://github.com/dask/dask-examples)
+- [Quantitative Big Imaging 2019 by Kevin Mader (ETHZ)](https://github.com/kmader/Quantitative-Big-Imaging-2019)
 
 
 ### The goals of 1st workshop are: 
