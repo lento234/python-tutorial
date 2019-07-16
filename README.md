@@ -1,3 +1,6 @@
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/lento234/python-tutorial/master)
+
 # Python Workshop
 
 Sources (derived from):
