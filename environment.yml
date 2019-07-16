@@ -14,3 +14,6 @@ dependencies:
   - ipympl
   - ipyvolume
   - pythreejs
+  - sympy
+  - dask
+  - distributed
