@@ -34,6 +34,9 @@ dependencies:
   - requests
   - py-xgboost
   - sympy
+  - openpyxl
+  - xlrd
+  - pytables
   - pip:
     - dask_xgboost
     - mimesis
