@@ -17,7 +17,7 @@ install:
 
     # Install dependencies
     - conda env create -f binder/environment.yml
-    - conda activate tutorial
+    - source activate tutorial
 
     # Install testing dependencies
     - conda install pathlib nbconvert nbformat jupyter_client ipykernel
@@ -27,7 +27,7 @@ install:
 
 script:
     - set -e
-    - conda activate test
+    - source activate tutorial
 
 notifications:
   email: false
