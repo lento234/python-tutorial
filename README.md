@@ -1,5 +1,12 @@
 
+**Online Notebooks:**
+
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/lento234/python-tutorial/master?urlpath=lab)
+[![Azure](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/lento234/python-tutorial)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lento234/python-tutorial/blob/master/04_numerical_python/04_numpy.ipynb)
+
+**Continuous integration:**
+
 [![Build Status](https://travis-ci.com/lento234/python-tutorial.svg?branch=master)](https://travis-ci.com/lento234/python-tutorial)
 
 # Python Workshop
@@ -10,7 +17,7 @@ Sources (derived and modified from):
 - [Scipy Lecture notes](https://scipy-lectures.org/)
 - [Quantitative Big Imaging 2019 by Kevin Mader (ETHZ)](https://github.com/kmader/Quantitative-Big-Imaging-2019)
 - [Dask examples tutorial](https://github.com/dask/dask-examples)
-
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 ### The goals of 1st workshop are: 
 
