@@ -46,52 +46,42 @@ Sources (derived and modified from):
    of conda packages by default) or
    [miniconda](https://conda.io/miniconda.html) (much smaller, with only
    essential packages by default, but any conda package can be installed).
-
+   
+   
 2. To update the materials:
    
-    ```
-    cd python-tutorial
-    git pull
-    ```
+    $ cd python-tutorial
     
+    $ git pull
+   
+   
+3. Create a new conda environment for this tutorial:
 
-3. Set up a new environment:
+    *Installing from `yaml`:* **(recommended)**
+    
+        $ conda env create -f binder/environment.yml
+    
+    *Manually installing:*
 
-    *Create a new conda environment for this tutorial:*
-
-    ```
-    conda create -n tutorial --override-channels --strict-channel-priority -c conda-forge \
-    -c anaconda --yes jupyterlab=1 ipywidgets nodejs pip cookiecutter pandas=0.24 matplotlib
-    ```
-
-    *Installing from `yaml`:*
-    ```
-    conda env create -f binder/environment.yml
-    ```
-
+        $ conda create -n tutorial --override-channels --strict-channel-priority -c conda-forge -c anaconda --yes jupyterlab=1
+    
     *Activate the conda environment:*
 
-    ```
-    conda activate tutorial
-    ```
+        $ conda activate tutorial
     
     
 4. Starting JupyterLab
 
     *Enter the following command in a new terminal window to start JupyterLab.*
 
-    ```
-    jupyter lab
-    ```
+        $ jupyter lab
 
 
 5. Removing environment
 
     *You can delete the environment by using the following in a terminal prompt.*
 
-    ```
-    conda env remove --name tutorial --yes
-    ```
+        $ conda env remove --name tutorial --yes
 
 
 ## Useful links:
