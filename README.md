@@ -1,5 +1,6 @@
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/lento234/python-tutorial/master?urlpath=lab)
+[![Build Status](https://travis-ci.com/lento234/ragnarok.svg?branch=master)](https://travis-ci.com/lento234/python-tutorial)
 
 # Python Workshop
 
