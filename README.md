@@ -1,7 +1,8 @@
 # Python Workshop
 
 Sources (derived from):
-- https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial 
+- [Scipy 2019 jupyterlab tutorial](https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial)
+- [Scipy Lecture notes](https://scipy-lectures.org/)
 
 
 ### The goals of 1st workshop are: 
@@ -45,12 +46,13 @@ Sources (derived from):
     *Create a new conda environment for this tutorial:*
 
     ```
-    conda create -n tutorial --override-channels --strict-channel-priority -c conda-forge -c anaconda --yes jupyterlab=1 ipywidgets nodejs pip cookiecutter pandas=0.24 matplotlib
+    conda create -n tutorial --override-channels --strict-channel-priority -c conda-forge \
+    -c anaconda --yes jupyterlab=1 ipywidgets nodejs pip cookiecutter pandas=0.24 matplotlib
     ```
 
     *Installing from `yaml`:*
     ```
-    conda env create -f environment.yml`
+    conda env create -f environment.yml
     ```
 
     *Activate the conda environment:*
