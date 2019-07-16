@@ -6,9 +6,10 @@
 
 Sources (derived and modified from):
 - [Scipy 2019 jupyterlab tutorial](https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial)
+- [Lecture series on scientific python by jrjohansson](https://github.com/jrjohansson/scientific-python-lectures)
 - [Scipy Lecture notes](https://scipy-lectures.org/)
-- [Dask examples tutorial](https://github.com/dask/dask-examples)
 - [Quantitative Big Imaging 2019 by Kevin Mader (ETHZ)](https://github.com/kmader/Quantitative-Big-Imaging-2019)
+- [Dask examples tutorial](https://github.com/dask/dask-examples)
 
 
 ### The goals of 1st workshop are: 
@@ -106,6 +107,7 @@ Sources (derived and modified from):
 - [Lecture series on scientific python by jrjohansson](https://github.com/jrjohansson/scientific-python-lectures)
 - [Python datascience handbook online series](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
 - [Scipy 2019 conference videos](https://www.youtube.com/user/EnthoughtMedia/videos)
+- [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ### Libraries + tutorials
 - [Pangeo](https://pangeo.io/)
