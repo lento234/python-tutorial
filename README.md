@@ -111,6 +111,7 @@ Sources (derived and modified from):
 - [Dask](https://docs.dask.org/en/latest/)
 - [Docker](https://hub.docker.com/)
 - [Dask-jobqueue at PBSCluster](https://andersonbanihirwe.dev/talks/dask-jupyter-scipy-2019.html)
+- [Awesome python](https://awesome-python.com)
 
 ### Reproducability
 - [Data Life-Cycle Management](https://www.dlcm.ch/)
