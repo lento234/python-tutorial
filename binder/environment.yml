@@ -17,7 +17,7 @@ dependencies:
   - bokeh=1.1.0
   - dask=2.0.0
   - dask-image=0.2.0
-  - dask-ml=1.0.0
+    #  - dask-ml=1.0.0
   - tornado=5
   - numba
   - numpy
@@ -27,17 +27,17 @@ dependencies:
   - scikit-learn=0.20
   - matplotlib
   - nbserverproxy
-#  - nomkl
+    #  - nomkl
   - h5py
   - xarray
   - bottleneck
   - requests
-  - py-xgboost
+    #  - py-xgboost
   - sympy
   - openpyxl
   - xlrd
   - pytables
   - pip:
-    - dask_xgboost
+      #    - dask_xgboost
     - mimesis
     - dask-labextension>=1.0
