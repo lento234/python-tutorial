@@ -49,10 +49,10 @@ Sources (derived and modified from):
    
    
 2. To update the materials:
-   
-    $ cd python-tutorial
+
+         $ cd python-tutorial
     
-    $ git pull
+         $ git pull
    
    
 3. Create a new conda environment for this tutorial:
