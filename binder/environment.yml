@@ -27,7 +27,7 @@ dependencies:
   - scikit-learn=0.20
   - matplotlib
   - nbserverproxy
-  - nomkl
+#  - nomkl
   - h5py
   - xarray
   - bottleneck
