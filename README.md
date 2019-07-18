@@ -29,29 +29,35 @@ A compilation of useful jupyter notebook files for learning python.
 
 ## Software installation
 
-1. Install the full [anaconda
-   distribution](https://www.anaconda.com/download/) (very large, includes lots
-   of conda packages by default) or
-   [miniconda](https://conda.io/miniconda.html) (much smaller, with only
-   essential packages by default, but any conda package can be installed).
-   
-2. To update the materials:
+1. Install python on your computer.
 
-         $ cd python-tutorial
+    From [miniconda](https://conda.io/miniconda.html) containing only the essentials such as the `conda` package  manager and `python`.
     
-         $ git pull
-   
-3. Create a new conda environment for this tutorial:
+    *or*
 
-    *Installing from `yaml`:*
+    From [anaconda distribution](https://www.anaconda.com/download/) containing all the necessary libaries for scientific research. Warning: very large, includes lots of conda packages by default.
+   
+2. Download this python tutorial to your computer
+
+    *Clone this `github` repository locally to you computer:*
+      
+        $ git clone https://github.com/lento234/python-tutorial.git
+      
+    *Change your directory to the tutorial folder:*
+      
+        $ cd python-tutorial
+   
+3. Create a new conda environment for this tutorial
+
+    *Installing from the `yaml` file:*
     
         $ conda env create -f binder/environment.yml
     
-    *Activate the conda environment:*
+    *Activate the conda `tutorial` environment:*
 
         $ conda activate tutorial
     
-4. Starting JupyterLab
+4. Starting JupyterLab locally
 
     *Enter the following command in a new terminal window to start JupyterLab.*
 
