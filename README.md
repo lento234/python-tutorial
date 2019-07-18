@@ -1,3 +1,6 @@
+# Python tutorials
+
+A compilation of useful jupyter notebook files for learning python.
 
 **Online Notebooks:**
 
@@ -13,9 +16,8 @@
 1. [Introduction (15th July, 2019)](https://bit.ly/2Y9zc6v)
 2. Basic python (TBD)
 
-# Python workshop 
 
-## Sources (derived and modified from):
+**References (derived and modified from various sources):**
 
 - [Scipy 2019 jupyterlab tutorial](https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial)
 - [Lecture series on scientific python by jrjohansson](https://github.com/jrjohansson/scientific-python-lectures)
