@@ -9,6 +9,9 @@
 
 [![Build Status](https://travis-ci.com/lento234/python-tutorial.svg?branch=master)](https://travis-ci.com/lento234/python-tutorial)
 
+**slides**
+- [slides 1](https://bit.ly/2Y9zc6v)
+
 # Python Workshop
 
 Sources (derived and modified from):
