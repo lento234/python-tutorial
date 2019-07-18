@@ -9,37 +9,20 @@
 
 [![Build Status](https://travis-ci.com/lento234/python-tutorial.svg?branch=master)](https://travis-ci.com/lento234/python-tutorial)
 
-**slides**
-- [slides 1](https://bit.ly/2Y9zc6v)
+**Slides**
+1. [Introduction (15th July, 2019)](https://bit.ly/2Y9zc6v)
+2. Basic python (TBD)
 
-# Python Workshop
+# Python workshop 
 
-Sources (derived and modified from):
+## Sources (derived and modified from):
+
 - [Scipy 2019 jupyterlab tutorial](https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial)
 - [Lecture series on scientific python by jrjohansson](https://github.com/jrjohansson/scientific-python-lectures)
 - [Scipy Lecture notes](https://scipy-lectures.org/)
 - [Quantitative Big Imaging 2019 by Kevin Mader (ETHZ)](https://github.com/kmader/Quantitative-Big-Imaging-2019)
 - [Dask examples tutorial](https://github.com/dask/dask-examples)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
-
-### The goals of 1st workshop are: 
-
-- basic overview of python
-- substituting your matlab workflow with python
-- learning to use excel, csv files in python, and
-- version controlling and backup up your data / code.
-
-
-### Detailed content of the workshop:
-
-1. Installation using anaconda
-2. Python environments with conda
-3. Working with python in terminal (ipython), IDE (spyderlib), notebooks (jupyterlab)
-4. Basic python
-5. Numerical computation (i.e., Matlab-esq) programming in python (numpy)
-6. Matlab-esq plotting in python (matplotlib)
-7. Reading, writing (excel, csv, ...) and statistical data analysis (pandas)
-8. Basic intro to git (more advanced later)
 
 
 ## Software installation
@@ -50,28 +33,21 @@ Sources (derived and modified from):
    [miniconda](https://conda.io/miniconda.html) (much smaller, with only
    essential packages by default, but any conda package can be installed).
    
-   
 2. To update the materials:
 
          $ cd python-tutorial
     
          $ git pull
    
-   
 3. Create a new conda environment for this tutorial:
 
-    *Installing from `yaml`:* **(recommended)**
+    *Installing from `yaml`:*
     
         $ conda env create -f binder/environment.yml
-    
-    *Manually installing:*
-
-        $ conda create -n tutorial --override-channels --strict-channel-priority -c conda-forge -c anaconda --yes jupyterlab=1
     
     *Activate the conda environment:*
 
         $ conda activate tutorial
-    
     
 4. Starting JupyterLab
 
@@ -79,8 +55,12 @@ Sources (derived and modified from):
 
         $ jupyter lab
 
+5. Deactivate your environment:
 
-5. Removing environment
+        $ conda deactivate 
+
+
+6. Removing your `tutorial` environment:
 
     *You can delete the environment by using the following in a terminal prompt.*
 
@@ -95,19 +75,19 @@ Sources (derived and modified from):
 - [git](https://git-scm.com/)
 - [python (only)](https://www.python.org/downloads/)
 
-### Jupyter related:
-- [Latex + jupyter](https://github.com/jupyterlab/jupyterlab-latex)
-- [Git + jupyter](https://github.com/jupyterlab/jupyterlab-git)
-- [ipywidgets + jupyter](https://github.com/jupyter-widgets/ipywidgets)
-- [Awesome jupyter notebooks](https://github.com/markusschanta/awesome-jupyter)
-- [Dask + jupyter](https://github.com/dask/dask-labextension)
-
 ### Reference guides
 - [Numpy for matlab users](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html)
 - [Lecture series on scientific python by jrjohansson](https://github.com/jrjohansson/scientific-python-lectures)
 - [Python datascience handbook online series](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
 - [Scipy 2019 conference videos](https://www.youtube.com/user/EnthoughtMedia/videos)
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+### Jupyter related:
+- [Latex + jupyter](https://github.com/jupyterlab/jupyterlab-latex)
+- [Git + jupyter](https://github.com/jupyterlab/jupyterlab-git)
+- [ipywidgets + jupyter](https://github.com/jupyter-widgets/ipywidgets)
+- [Awesome jupyter notebooks](https://github.com/markusschanta/awesome-jupyter)
+- [Dask + jupyter](https://github.com/dask/dask-labextension)
 
 ### Libraries + tutorials
 - [Pangeo](https://pangeo.io/)
