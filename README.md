@@ -29,15 +29,15 @@ A compilation of useful jupyter notebook files for learning python.
 
 ## Software installation
 
-1. Install python on your computer.
+1. Install python (**python 3**) on your computer.
 
-    From [miniconda](https://conda.io/miniconda.html) containing only the essentials such as the `conda` package  manager and `python`.
+    From [miniconda](https://conda.io/miniconda.html) containing only the essentials such as the `conda` package  manager and `python`. (**Recommended**) 
     
     *or*
 
     From [anaconda distribution](https://www.anaconda.com/download/) containing all the necessary libaries for scientific research. Warning: very large, includes lots of conda packages by default.
    
-2. Download this python tutorial to your computer
+2. Download this python tutorial github repository on to your computer.
 
     *Clone this `github` repository locally to you computer:*
       
@@ -47,9 +47,9 @@ A compilation of useful jupyter notebook files for learning python.
       
         $ cd python-tutorial
    
-3. Create a new conda environment for this tutorial
+3. Create a new conda environment for this tutorial.
 
-    *Installing from the `yaml` file:*
+    *Installing from the `yaml` file included in this repository:*
     
         $ conda env create -f binder/environment.yml
     
@@ -57,20 +57,19 @@ A compilation of useful jupyter notebook files for learning python.
 
         $ conda activate tutorial
     
-4. Starting JupyterLab locally
+4. Starting JupyterLab locally.
 
-    *Enter the following command in a new terminal window to start JupyterLab.*
+    *Enter the following command in a new terminal window to start JupyterLab:*
 
         $ jupyter lab
 
-5. Deactivate your environment:
+5. Deactivate your environment when you are done.
 
         $ conda deactivate 
 
+6. (*optional*) Removing your `tutorial` environment if you don't want it anymore.
 
-6. Removing your `tutorial` environment:
-
-    *You can delete the environment by using the following in a terminal prompt.*
+    *You can delete the environment by using the following in a terminal prompt:*
 
         $ conda env remove --name tutorial --yes
 
@@ -78,17 +77,19 @@ A compilation of useful jupyter notebook files for learning python.
 ## Useful links:
 
 ### Installation:
-- [anaconda (python + libraries)](https://www.anaconda.com/distribution/)
-- [Conda](https://conda.io/projects/conda/en/latest/index.html)
 - [git](https://git-scm.com/)
+- [Conda](https://conda.io/projects/conda/en/latest/index.html)
+- [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+- [anaconda (python + libraries)](https://www.anaconda.com/distribution/)
 - [python (only)](https://www.python.org/downloads/)
+- [Visual studio code](https://code.visualstudio.com/)
 
-### Reference guides
+### Reference guides:
 - [Numpy for matlab users](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html)
+- [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Lecture series on scientific python by jrjohansson](https://github.com/jrjohansson/scientific-python-lectures)
 - [Python datascience handbook online series](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
 - [Scipy 2019 conference videos](https://www.youtube.com/user/EnthoughtMedia/videos)
-- [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ### Jupyter related:
 - [Latex + jupyter](https://github.com/jupyterlab/jupyterlab-latex)
@@ -97,14 +98,14 @@ A compilation of useful jupyter notebook files for learning python.
 - [Awesome jupyter notebooks](https://github.com/markusschanta/awesome-jupyter)
 - [Dask + jupyter](https://github.com/dask/dask-labextension)
 
-### Libraries + tutorials
+### Libraries + tutorials:
 - [Pangeo](https://pangeo.io/)
 - [Dask](https://docs.dask.org/en/latest/)
 - [Docker](https://hub.docker.com/)
 - [Dask-jobqueue at PBSCluster](https://andersonbanihirwe.dev/talks/dask-jupyter-scipy-2019.html)
 - [Awesome python](https://awesome-python.com)
 
-### Reproducability
+### Reproducability in science:
 - [Data Life-Cycle Management](https://www.dlcm.ch/)
 - [OpenBIS docker container](https://hub.docker.com/r/openbis/debian-openbis)
 
