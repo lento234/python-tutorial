@@ -74,7 +74,7 @@ A compilation of useful jupyter notebook files for learning python.
         $ conda env remove --name tutorial --yes
 
 
-## Useful links:
+## Useful links
 
 ### Installation:
 - [git](https://git-scm.com/)
