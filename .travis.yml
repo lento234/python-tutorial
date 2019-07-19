@@ -2,8 +2,8 @@ language: python
 
 matrix:
   include:
-    - name: "Python 3.7.3 on Bionic Linux"
-      python: 3.7.3           # this works for Linux but is ignored on macOS or Windows
+    - name: "Python 3.7 on Bionic Linux"
+      python: 3.7
       dist: bionic
       before_install:
         - sudo apt update
@@ -30,17 +30,34 @@ install:
 
     # Install dependencies
     - conda env create -f binder/environment.yml
+
+    # Activate environment
     - source activate tutorial
 
+    # Post build ccmmands
+    - bash binder/postBuild
+
     # Install testing dependencies
-    - conda install pathlib nbconvert nbformat jupyter_client ipykernel
+    # - conda install pathlib nbconvert nbformat jupyter_client ipykernel
 
     # Install documentation dependencies
-    - pip install nbsphinx dask-sphinx-theme
+    # - pip install nbsphinx dask-sphinx-theme
 
 script:
     - set -e
     - source activate tutorial
+    - for nb in {06*,07*,0x*/**}/*ipynb; do
+      if [[ $nb = *"jobqueue"* ]]; then
+        echo "skipping dask jobqueue notebook $nb";
+      else     
+          jupyter nbconvert --ExecutePreprocessor.timeout=3600 --execute "$nb" --to markdown |& tee nb_to_md.txt;
+          traceback=$(grep "Traceback (most recent call last):" nb_to_md.txt);
+          if [[ $traceback ]]; then
+            exit 1;
+          fi;
+      fi;
+      done
 
 notifications:
   email: false
+
