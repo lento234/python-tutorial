@@ -46,7 +46,7 @@ install:
 script:
     - set -e
     - source activate tutorial
-    - for nb in 06*/*ipynb; do
+    - for nb in 02*/*ipynb; do
       if [[ $nb = *"jobqueue"* ]]; then
         echo "skipping dask jobqueue notebook $nb";
       else     
