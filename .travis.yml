@@ -45,6 +45,7 @@ install:
 
 script:
     - set -e
+    # Run test check for errors
     - source activate tutorial
       #- for nb in {06*,07*,0x*/**}/*ipynb; do
     - for nb in {06*/**}/*ipynb; do
