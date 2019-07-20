@@ -50,12 +50,7 @@ script:
       if [[ $nb = *"jobqueue"* ]]; then
         echo "skipping dask jobqueue notebook $nb";
       else     
-          jupyter nbconvert --execute "$nb" --to markdown | tee nb_to_md.txt;
-          traceback=$(grep "Traceback (most recent call last):" nb_to_md.txt);
-          if [[ $traceback ]]; then
-            echo "All jupyter notebook did not run without error."
-            exit 1;
-          fi;
+        jupyter nbconvert --execute "$nb" --to markdown || exit 1;
       fi;
       done
 
