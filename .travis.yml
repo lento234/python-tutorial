@@ -8,10 +8,11 @@ matrix:
       before_install:
         - sudo apt update
         - sudo apt install graphviz
-#     - name: "Python 3.7.2 on macOS"
-#       os: osx
-#       osx_image: xcode10.2  # Python 3.7.2 running on macOS 10.14.3
-#       language: shell       # 'language: python' is an error on Travis CI macOS
+    - name: "Python 3.7.2 on macOS"
+      os: osx
+      osx_image: xcode10.2  # Python 3.7.2 running on macOS 10.14.3
+      language: shell       # 'language: python' is an error on Travis CI macOS
+
 #     - name: "Python 3.7.3 on Windows"
 #       os: windows           # Windows 10.0.17134 N/A Build 17134
 #       language: shell       # 'language: python' is an error on Travis CI Windows
@@ -38,18 +39,15 @@ install:
     - bash binder/postBuild
 
     # Install testing dependencies
-    # - conda install pathlib nbconvert nbformat jupyter_client ipykernel
-
-    # Install documentation dependencies
-    # - pip install nbsphinx dask-sphinx-theme
+    #for nb in {05*,06*,0x*/**}/*ipynb; do echo $nb; done
 
 script:
     - set -e
     - source activate tutorial
-    - for nb in 02*/*ipynb; do
+    - for nb in 06*/*ipynb; do
       if [[ $nb = *"jobqueue"* ]]; then
         echo "skipping dask jobqueue notebook $nb";
-      else     
+      else
         jupyter nbconvert --execute "$nb" --to markdown || exit 1;
       fi;
       done
