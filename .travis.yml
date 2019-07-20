@@ -45,15 +45,12 @@ install:
 
 script:
     - set -e
-    # Run test check for errors
     - source activate tutorial
-      #- for nb in {06*,07*,0x*/**}/*ipynb; do
     - for nb in {06*/**}/*ipynb; do
       if [[ $nb = *"jobqueue"* ]]; then
         echo "skipping dask jobqueue notebook $nb";
       else     
           jupyter nbconvert --execute "$nb" --to markdown |& tee nb_to_md.txt;
-          #jupyter nbconvert --ExecutePreprocessor.timeout=3600 --execute "$nb" --to markdown |& tee nb_to_md.txt;
           traceback=$(grep "Traceback (most recent call last):" nb_to_md.txt);
           if [[ $traceback ]]; then
             echo "All jupyter notebook did not run without error."

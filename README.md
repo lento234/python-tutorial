@@ -10,12 +10,11 @@ A compilation of useful jupyter notebook files for learning python.
 
 **Continuous integration:**
 
-[![Build Status](https://travis-ci.com/lento234/python-tutorial.svg?branch=master)](https://travis-ci.com/lento234/python-tutorial)
+[![Build Status](https://travis-ci.org/lento234/python-tutorial.svg?branch=master)](https://travis-ci.org/lento234/python-tutorial)
 
 **Slides**
 1. [Introduction (15th July, 2019)](https://bit.ly/2Y9zc6v)
 2. Basic python (TBD)
-
 
 **References (derived and modified from various sources):**
 
