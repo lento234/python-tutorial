@@ -1,5 +1,8 @@
 language: python
 
+notifications:
+  email: false
+
 matrix:
   include:
     - name: "Python 3.7 on Bionic Linux"
@@ -7,13 +10,15 @@ matrix:
       dist: bionic
       before_install:
         - sudo apt update
-        - sudo apt install graphviz
+        - sudo apt install graphviz texlive
         - CURRENT_OS="Linux"
     - name: "Python 3.7.2 on macOS"
       os: osx
       osx_image: xcode10.2  # Python 3.7.2 running on macOS 10.14.3
       language: shell       # 'language: python' is an error on Travis CI macOS
       before_install:
+        - brew tap caskroom/cask
+        - brew cask install mactex-no-gui
         - CURRENT_OS="MacOSX"
 
 #     - name: "Python 3.7.3 on Windows"
@@ -58,6 +63,3 @@ script:
         jupyter nbconvert --execute "$nb" --to markdown || exit 1;
       fi;
       done
-
-notifications:
-  email: false
