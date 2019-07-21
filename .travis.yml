@@ -8,13 +8,13 @@ matrix:
       before_install:
         - sudo apt update
         - sudo apt install graphviz
-        - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+        - CURRENT_OS="Linux"
     - name: "Python 3.7.2 on macOS"
       os: osx
       osx_image: xcode10.2  # Python 3.7.2 running on macOS 10.14.3
       language: shell       # 'language: python' is an error on Travis CI macOS
       before_install:
-        - wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh
+        - CURRENT_OS="MacOSX"
 
 #     - name: "Python 3.7.3 on Windows"
 #       os: windows           # Windows 10.0.17134 N/A Build 17134
@@ -25,9 +25,14 @@ matrix:
 #       env: PATH=/c/Python37:/c/Python37/Scripts:$PATH
 
 install:
-    # Install conda
+    # Download miniconda
+    - wget https://repo.continuum.io/miniconda/Miniconda3-latest-$CURRENT_OS-x86_64.sh -O miniconda.sh
+
+    # Install miniconda
     - bash miniconda.sh -b -p $HOME/miniconda
     - export PATH="$HOME/miniconda/bin:$PATH"
+   
+    # Setup conda
     - conda config --set always_yes yes --set changeps1 no
     - conda update conda
 
@@ -41,12 +46,12 @@ install:
     - bash binder/postBuild
 
     # Install testing dependencies
-    #for nb in {05*,06*,0x*/**}/*ipynb; do echo $nb; done
+    # - for nb in 06*/*ipynb; do
 
 script:
     - set -e
     - source activate tutorial
-    - for nb in 06*/*ipynb; do
+    - for nb in {05*,06*,0x*/**}/*ipynb; do
       if [[ $nb = *"jobqueue"* ]]; then
         echo "skipping dask jobqueue notebook $nb";
       else
@@ -56,4 +61,3 @@ script:
 
 notifications:
   email: false
-
