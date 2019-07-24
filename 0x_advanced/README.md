@@ -1,5 +1,15 @@
 # Advanced python libraries
 
+A collection of additional tutorials for more advanced python libraries. To install the necessary modules and libraries:
+
+        $ conda env update -f environment.yml
+    
+**References (derived and modified from various sources):**
+
+- [Jupyter-widget tutorials](https://github.com/jupyter-widgets/tutorial)
+
+    
+    
 ## Includes:
 
 - dask
