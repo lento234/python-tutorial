@@ -1,0 +1,36 @@
+name: tutorial
+channels:
+  - conda-forge
+dependencies:
+  - bokeh
+  - bottleneck
+  - bqplot
+  - cookiecutter
+  - dask
+  - dask-image
+  - dask-jobqueue    
+  - ipyevents
+  - ipyleaflet
+  - ipympl
+  - ipysheet
+  - ipytree
+  - ipyvolume
+  - ipywidgets
+  - netcdf4
+  - nodejs
+  - notebook<5.7.5
+  - numba
+  - nbserverproxy
+  - pyarrow
+  - python-graphviz
+  - pythreejs
+  - pywwt
+  - requests
+  - scikit-image
+  - scikit-learn
+  - seaborn
+  - tornado=5
+  - sympy
+  - pip:
+    - mimesis
+    - sidecar
