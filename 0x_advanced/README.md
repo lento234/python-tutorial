@@ -19,6 +19,7 @@ A collection of additional tutorials for more advanced python libraries. To inst
 - Jupyterlab: [youtube](https://youtu.be/RFabWieskak)
 - pandas: [youtube](https://www.youtube.com/watch?v=kQ6UWd9t2Go)
 - scipy
+- juelich hpc tutorial
 
 ## To be included:
 

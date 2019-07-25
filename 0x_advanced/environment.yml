@@ -6,6 +6,7 @@ dependencies:
   - bottleneck
   - bqplot
   - cookiecutter
+  - cython
   - dask
   - dask-image
   - dask-jobqueue    
